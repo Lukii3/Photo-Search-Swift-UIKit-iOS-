@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51AE1062694B43C0040A5E2 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51AE1052694B43C0040A5E2 /* Header.swift */; };
 		A52B76562689DEDF007152DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B76552689DEDF007152DA /* AppDelegate.swift */; };
 		A52B76582689DEDF007152DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B76572689DEDF007152DA /* SceneDelegate.swift */; };
 		A52B765A2689DEDF007152DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B76592689DEDF007152DA /* ViewController.swift */; };
 		A52B765D2689DEDF007152DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B765B2689DEDF007152DA /* Main.storyboard */; };
 		A52B765F2689DEE7007152DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52B765E2689DEE7007152DA /* Assets.xcassets */; };
 		A52B76622689DEE7007152DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52B76602689DEE7007152DA /* LaunchScreen.storyboard */; };
+		A52B766C2689E1F1007152DA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B766B2689E1F1007152DA /* CollectionViewCell.swift */; };
+		A52FBC03268B45B400C9A6EA /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FBC02268B45B300C9A6EA /* ApiCaller.swift */; };
+		A52FBC06268B48C400C9A6EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FBC05268B48C400C9A6EA /* Model.swift */; };
+		A533E72B2694631E00858343 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A533E72A2694631E00858343 /* Extensions.swift */; };
+		A56F52AA26931E390088FD0B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56F52A926931E390088FD0B /* DetailViewController.swift */; };
+		EEE00206D5E9EE3A75E9F227 /* Pods_PinterestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E2FB2BFACA0ACBE900AE9C /* Pods_PinterestDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02E2FB2BFACA0ACBE900AE9C /* Pods_PinterestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinterestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59ECFDF5488C401B017AD7DB /* Pods-PinterestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestDemo.release.xcconfig"; path = "Target Support Files/Pods-PinterestDemo/Pods-PinterestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A51AE1052694B43C0040A5E2 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		A52B76522689DEDF007152DA /* PinterestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52B76552689DEDF007152DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52B76572689DEDF007152DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		A52B765E2689DEE7007152DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52B76612689DEE7007152DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52B76632689DEE7007152DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52B766B2689E1F1007152DA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A52FBC02268B45B300C9A6EA /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		A52FBC05268B48C400C9A6EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A533E72A2694631E00858343 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A56F52A926931E390088FD0B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B5A485AD874C3E8144A1C5F2 /* Pods-PinterestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinterestDemo.debug.xcconfig"; path = "Target Support Files/Pods-PinterestDemo/Pods-PinterestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE00206D5E9EE3A75E9F227 /* Pods_PinterestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				A52B76542689DEDF007152DA /* PinterestDemo */,
 				A52B76532689DEDF007152DA /* Products */,
+				E699514DBB47EF9A73442BF4 /* Pods */,
+				FF5DC817CE46C08F7FB434E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,86 @@
 		A52B76542689DEDF007152DA /* PinterestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A52B76552689DEDF007152DA /* AppDelegate.swift */,
-				A52B76572689DEDF007152DA /* SceneDelegate.swift */,
-				A52B76592689DEDF007152DA /* ViewController.swift */,
-				A52B765B2689DEDF007152DA /* Main.storyboard */,
-				A52B765E2689DEE7007152DA /* Assets.xcassets */,
-				A52B76602689DEE7007152DA /* LaunchScreen.storyboard */,
+				A533E729269462E700858343 /* Extensions */,
 				A52B76632689DEE7007152DA /* Info.plist */,
+				A56F52A826931DC60088FD0B /* App */,
+				A56F52A626931D140088FD0B /* Controllers */,
+				A56F52A526931D0C0088FD0B /* ViewModel */,
+				A56F52A226931CF90088FD0B /* View */,
+				A56F52A126931CF20088FD0B /* Model */,
 			);
 			path = PinterestDemo;
+			sourceTree = "<group>";
+		};
+		A533E729269462E700858343 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A533E72A2694631E00858343 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A56F52A126931CF20088FD0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A52FBC05268B48C400C9A6EA /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A56F52A226931CF90088FD0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A52B765B2689DEDF007152DA /* Main.storyboard */,
+				A52B76602689DEE7007152DA /* LaunchScreen.storyboard */,
+				A52B766B2689E1F1007152DA /* CollectionViewCell.swift */,
+				A51AE1052694B43C0040A5E2 /* Header.swift */,
+				A52B765E2689DEE7007152DA /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A56F52A526931D0C0088FD0B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A52FBC02268B45B300C9A6EA /* ApiCaller.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A56F52A626931D140088FD0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A52B76592689DEDF007152DA /* ViewController.swift */,
+				A56F52A926931E390088FD0B /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A56F52A826931DC60088FD0B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A52B76552689DEDF007152DA /* AppDelegate.swift */,
+				A52B76572689DEDF007152DA /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E699514DBB47EF9A73442BF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5A485AD874C3E8144A1C5F2 /* Pods-PinterestDemo.debug.xcconfig */,
+				59ECFDF5488C401B017AD7DB /* Pods-PinterestDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF5DC817CE46C08F7FB434E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E2FB2BFACA0ACBE900AE9C /* Pods_PinterestDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A52B76662689DEE7007152DA /* Build configuration list for PBXNativeTarget "PinterestDemo" */;
 			buildPhases = (
+				EA490FDAD3944904F39058EC /* [CP] Check Pods Manifest.lock */,
 				A52B764E2689DEDF007152DA /* Sources */,
 				A52B764F2689DEDF007152DA /* Frameworks */,
 				A52B76502689DEDF007152DA /* Resources */,
+				C214AA79255EBEB11D30E790 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +224,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C214AA79255EBEB11D30E790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinterestDemo/Pods-PinterestDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PinterestDemo/Pods-PinterestDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PinterestDemo/Pods-PinterestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA490FDAD3944904F39058EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PinterestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A52B764E2689DEDF007152DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A52B765A2689DEDF007152DA /* ViewController.swift in Sources */,
+				A51AE1062694B43C0040A5E2 /* Header.swift in Sources */,
 				A52B76562689DEDF007152DA /* AppDelegate.swift in Sources */,
+				A52B766C2689E1F1007152DA /* CollectionViewCell.swift in Sources */,
+				A533E72B2694631E00858343 /* Extensions.swift in Sources */,
+				A52FBC06268B48C400C9A6EA /* Model.swift in Sources */,
+				A52FBC03268B45B400C9A6EA /* ApiCaller.swift in Sources */,
 				A52B76582689DEDF007152DA /* SceneDelegate.swift in Sources */,
+				A56F52AA26931E390088FD0B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +423,15 @@
 		};
 		A52B76672689DEE7007152DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A485AD874C3E8144A1C5F2 /* Pods-PinterestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LNLNTZ7DQ;
 				INFOPLIST_FILE = PinterestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +439,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukideveloper.PinterestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A52B76682689DEE7007152DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59ECFDF5488C401B017AD7DB /* Pods-PinterestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LNLNTZ7DQ;
 				INFOPLIST_FILE = PinterestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lukideveloper.PinterestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
